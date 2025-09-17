@@ -4,22 +4,22 @@ Remind: This is just for Unix-based systems so many things won't work on Windows
 
 # Install tmux
   tmux is included in most package managers of Linux for example in Arch:  
-    ´sudo pacman -S tmux´
+    ˋsudo pacman -S tmuxˋ  
   Debian based:  
-    ´sudo apt-get install tmux´
+    ˋsudo apt-get install tmux  
   Fedora:  
-    ´sudo dnf install tmux´
+    ˋsudo dnf install tmuxˋ  
   Or also MacOS:  
-    ´brew install tmux´
+    `brew install tmux`
   IF your distribution is not listed here search for it in the internet.
-After that put the ´tmux.conf in ~/.config/tmux/´ if this folder does not exist then you need to create it.
+After that put the `tmux.conf in ~/.config/tmux/` if this folder does not exist then you need to create it.
 # Install Xterm
   Xterm is preinstalled on the most distributions but sometimes in minimal installations, you do not have it preinstalled so install it with your package manager:
     Arch (for example):  
-      ´sudo pacman -S xterm´
+      `sudo pacman -S xterm`
       
   you want to put your .Xresources file in your home directory. After that go in your terminal and type this command:
-    xrdb -load .Xresources
+    `xrdb -load .Xresources`
   Then you have a nice basic terminal
   Don't use it on MacOS because it looks goofy
     
