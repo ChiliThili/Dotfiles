@@ -12,7 +12,7 @@ Remind: This is just for Unix-based systems so many things won't work on Windows
   Or also MacOS:  
     `brew install tmux`
   IF your distribution is not listed here search for it in the internet.
-After that put the `tmux.conf in ~/.config/tmux/` if this folder does not exist then you need to create it.
+After that put the tmux.conf in ~/.config/tmux/ if this folder does not exist then you need to create it.
 # Install Xterm
   Xterm is preinstalled on the most distributions but sometimes in minimal installations, you do not have it preinstalled so install it with your package manager:
     Arch (for example):  
