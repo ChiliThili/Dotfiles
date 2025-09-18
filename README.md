@@ -4,11 +4,11 @@ Remind: This is just for Unix-based systems so many things won't work on Windows
 
 # Install tmux
   tmux is included in most package managers of Linux for example in Arch:  
-    ˋsudo pacman -S tmuxˋ  
+    `sudo pacman -S tmux`  
   Debian based:  
-    ˋsudo apt-get install tmux`
+    `sudo apt-get install tmux`
   Fedora:  
-    ˋsudo dnf install tmuxˋ  
+    `sudo dnf install tmux`  
   Or also MacOS:  
     `brew install tmux`
   IF your distribution is not listed here search for it in the internet.
